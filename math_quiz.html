@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Kidz Learning Corner</title>
+		<link href="_css/Kidz-Learning-Corner.css" rel="stylesheet" type="text/css">
+		<script src="_scripts/KLC_math.js"></script>
+	</head>
+
+	<body class="home">
+		<div id="wrapper">
+			<header>
+				<h1 id="myHeader"><center>Kidz Learning Corner</h1></center>
+			</header>
+        <nav>
+            <ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="reading.html">READING</a></li>
+				<li><a href="writing.html">WRITING</a></li>
+				<li><a href="math.html">MATH</a></li>
+				<li><a href="shapes.html">SHAPES</a></li>
+				<li><a href="tutoring.html">TUTORING</a></li>
+				<li><a href="parents.html">PARENTS</a></li>                
+            </ul>
+        </nav>
+	
+		<section class="description1>
+			<p class="homeParagraph">
+			<h1 class="h1"><center>Math Quiz</center></h1>
+			<br>
+			<div class="gallery">
+				<img src="_images/MathQuiz.jpg" width="500" height="400" alt="Math Game" />
+					<p>Check your math skills!
+					   Pick from four quizes: Addition, Subtraction, Multiplication, or Division. 
+					   Pick your level: Easy, Medium, and Hard
+					   Check score shows up every time that you anser a quetion, or you can simply click on the buttone to check it. Reset Scores make you start over.
+					</p>
+				<center>
+					<form name=quiz class = "form">
+						<input class="form" type=button value="addition" onClick="addition()">
+						<input class="form" type=button value="subtract" onClick="minus()">
+						<input class="form" type=button value="multiply" onClick="multiply()">
+						<input class="form" type=button value="divide" onClick="division()">
+						<br>
+						<br>
+						<input type="radio" name="math">Easy
+						<input type="radio" name="math" checked>Moderate
+						<input type="radio" name="math">Difficult
+						<br>
+						<br>
+						<input type=button value="Check Score" onClick="checkAnswer()">
+						<input type=button value="Reset Score" onClick="javascript:write=0;wrong=0;">
+					</form>
+				</center>
+				</div>
+		</section>
+	</div>
+	</body>
+</html>
